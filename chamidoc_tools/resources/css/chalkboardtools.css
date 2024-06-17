@@ -1,0 +1,635 @@
+
+#txtTopInformation{
+    transition: all 1s ease-out;
+}
+
+.chalkLeft{
+    position : fixed;
+    left : 0px;
+    top : 0px;
+    bottom : 0px;
+    width : 4%;
+    background-color : #D6DBDF;
+    z-index : 1;
+}
+.chalkRight{
+    position : fixed;
+    right : 0px;
+    top : 0px;
+    bottom :0px;
+    width : 4%;
+    background-color : #D6DBDF;
+    z-index : 1;
+}
+.chalkTitle{
+    position : relative;
+    width : 89%;
+    font-size : 22px;
+    padding : 10px;
+    margin-top: 20px;
+    margin-left : 2%;
+    color : white;
+    background-color : #34495E;
+    z-index : 2;
+}
+
+div.chalkTitle:before {
+  content : '';
+  position : absolute;
+  bottom : 0;
+  right : 0;
+  border-bottom : 70px solid #fff;
+  border-left : 30px solid transparent;
+  width : 0;
+}
+
+.divParamChalk{
+    position : relative;
+    margin-left : 5%;
+    margin-right : 5%;
+    padding: 10px;
+    top : 1%;
+    width : 90%;
+    font-size : 16px;
+    font-family: Sans-Serif;
+    border : 0px solid #ddd;
+    border-top : none;
+    border-bottom : none;
+    z-index : 2;
+}
+
+.infosTopChalkBoard{
+    position : absolute;
+    left : 10%;
+    top : 0px;
+    width : 80%;
+    height : 350px;
+    padding : 10px;
+    border : 1px solid #424949;
+    background-color: white;
+    border-radius : 3px;
+    z-index: 9010;
+    overflow : auto;
+}
+
+.iconTopChalkBoard{
+    position : absolute;
+    left : 10%;
+    top : 370px;
+    width : 32px;
+    height : 32px;
+    background-color: white;
+    background-image : url("../img/icon-infos.png");
+    background-position : center center;
+    background-repeat : no-repeat;
+    cursor : pointer;
+    border-radius : 15px;
+    border-top-left-radius : 0px;
+    border-top-right-radius : 0px;
+    border : 1px solid #424949;
+    border-top : none;
+    transition: all 1s ease-out;
+    z-index: 9010;
+}
+
+.infosTopChalkBoardCola{
+    position : absolute;
+    left : 10%;
+    top : -274px;
+    width : 80%;
+    height : 250px;
+    padding : 10px;
+    border : 1px solid #424949;
+    background-color: white;
+    border-radius : 3px;
+    z-index: 9010;
+    overflow : auto;
+    z-index: 9010;
+}
+
+.iconTopChalkBoardCola{
+    position : absolute;
+    left : 30%;
+    top : -1px;
+    width : 32px;
+    height : 32px;
+    background-color: white;
+    background-image : url("../img/icon-infos.png");
+    background-position : center center;
+    background-repeat : no-repeat;
+    border-radius : 15px;
+    border-top-left-radius : 0px;
+    border-top-right-radius : 0px;
+    border : 1px solid #424949;
+    cursor : pointer;
+    transition: all 1s ease-out;
+    z-index: 9010;
+}
+.infosBottomChalkBoard{
+    position : absolute;
+    left : 10%;
+    bottom : 0px;
+    width : 80%;
+    height : 250px;
+    padding : 10px;
+    border : 1px solid #424949;
+    background-color : white;
+    border-radius : 3px;
+    z-index: 9010;
+    transition: all 1s ease-out;
+    overflow : auto;
+}
+.iconBotChalkBoard{
+    position : absolute;
+    left : 10%;
+    bottom : 270px;
+    width : 32px;
+    height : 32px;
+    background-color: white;
+    background-image : url("../img/icon-infos.png");
+    background-position : center center;
+    background-repeat : no-repeat;
+    border-radius : 15px;
+    border-bottom-left-radius : 0px;
+    border-bottom-right-radius : 0px;
+    border : 1px solid #424949;
+    border-bottom : none;
+    cursor : pointer;
+    transition: all 1s ease-out;
+    z-index: 9010;
+}
+.infosBottomChalkBoardCola{
+    position : absolute;
+    left : 10%;
+    bottom : -274px;
+    width : 80%;
+    height : 250px;
+    padding : 10px;
+    border : 1px solid #424949;
+    background-color : white;
+    border-radius : 3px;
+    z-index: 9010;
+    transition: all 1s ease-out;
+    overflow : auto;
+}
+.iconBotChalkBoardCola{
+    position : absolute;
+    left : 10%;
+    bottom : 0px;
+    width : 32px;
+    height : 32px;
+    background-color: white;
+    background-image : url("../img/icon-infos.png");
+    background-position : center center;
+    background-repeat : no-repeat;
+    border-radius : 15px;
+    border-bottom-left-radius : 0px;
+    border-bottom-right-radius : 0px;
+    border : 1px solid #424949;
+    border-bottom : none;
+    cursor : pointer;
+    transition: all 1s ease-out;
+    z-index: 9010;
+}
+
+.centerMessageChalkBoard{
+    position : absolute;
+    left : 50%;
+    bottom : -10%;
+    font-size : 18px;
+    width : 450px;
+    padding : 10px;
+    text-align: center;
+    min-height : 20px;
+    height : auto;
+    margin-left :-235px;
+    border : 2px solid #424949;
+    background-color : white;
+    border-radius : 2px;
+    z-index : 300;
+    display : none;
+}
+
+.centerImageChalkBoard{
+    position : absolute;
+    left : 40%;
+    right : 40%;
+    top : 40%;
+    bottom : 40%;
+    border : 2px solid #424949;
+    background-color : rgba(255, 255, 255, 0.5);
+    border-radius : 2px;
+    z-index : 300;
+    background-size : contain;
+    background-position : center;
+    background-repeat : no-repeat;
+    display : none;
+}
+
+.actBtnClose{
+    position : absolute;
+    right : 1%;
+    top : 1%;
+    padding : 10px;
+    border-radius : 6px;
+    cursor : pointer;
+    border : 2px solid #424949;
+    background-color : white;
+}
+.actBtnClose:hover{
+    background-color : rgb(154, 188, 211);
+}
+
+.mapPointZA{
+    background-image : url("../img/map-marker.png");
+    background-size : contain;
+    background-position : center;
+    background-repeat : no-repeat;
+    border : 0px solid red;
+}
+
+/* Credit part */
+
+.chalkboardwall {
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    margin-top: -150px;
+    margin-left: -225px;
+    background-color:white;
+    overflow: hidden;
+    user-select: none;
+    z-index: 101;
+}
+
+.chalkboardwallboard {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color:white;
+    overflow: auto;
+    user-select: none;
+    z-index: 101;
+}
+
+
+.walletCoinsMessage {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    left: 50%;
+    top: 130px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: -200px;
+    background-color:#F9E79F;
+    color:black;
+    user-select: none;
+    z-index: 101;
+}
+
+.unlockvideo {
+    position:absolute;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:23px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:16px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+    user-select:none;
+}
+.unlockvideo:hover {
+	/* background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%); */
+	background-color:#ffab23;
+    transform: scale(0.99);
+}
+.unlockvideo:active {
+    transform: scale(0.97);
+    border:1px solid gray;
+	position:absolute;
+}
+
+.graphicriver {
+	box-shadow : inset 0px 1px 0px 0px #54a3f7;
+	background : linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color : #007dc1;
+	border-radius : 3px;
+	border : 1px solid #124d77;
+	display : inline-block;
+	cursor : pointer;
+	color :#ffffff;
+	font-family : Arial;
+	font-size : 14px;
+	padding : 11px 70px;
+	text-decoration : none;
+	text-shadow : 0px 1px 0px #154682;
+}
+.graphicriver:hover {
+	background : linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color : #0061a7;
+}
+.graphicriver:active {
+	position : relative;
+	top : 1px;
+}
+
+.timeconference {
+	background : linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color : #eae0c2;
+	border-radius : 15px;
+	border : 1px solid #333029;
+	display : inline-block;
+	color : #505739;
+	font-family : Arial;
+	font-size : 14px;
+	font-weight : bold;
+	padding : 12px 16px;
+	text-decoration : none;
+	text-shadow : 0px 1px 0px #ffffff;
+}
+
+.txtpanelconf{
+    background :#F8F9F9;
+    border : 1px solid #505739;
+    margin-left : auto;
+    margin-right : auto;
+    padding:15px;
+    font-size : 16px;
+    width : 98%;
+    max-width : 910px;
+}
+
+.graphicriver {
+	box-shadow : inset 0px 1px 0px 0px #54a3f7;
+	background : linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color : #007dc1;
+	border-radius : 3px;
+	border : 1px solid #124d77;
+	display : inline-block;
+	cursor : pointer;
+	color :#ffffff;
+	font-family : Arial;
+	font-size : 14px;
+	padding : 11px 70px;
+	text-decoration : none;
+	text-shadow : 0px 1px 0px #154682;
+}
+.graphicriver:hover {
+	background : linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color : #0061a7;
+}
+.graphicriver:active {
+	position : relative;
+	top : 1px;
+}
+
+.learningcoinpanel{
+    background :white;
+    border : 4px solid #fb9e25;
+    text-align : center;
+    border-radius : 6px;
+    margin-left : auto;
+    margin-right : auto;
+    padding : 15px;
+    font-size : 16px;
+    width : 70%;
+    max-width : 910px;
+}
+
+.learningcoinbutton {
+	box-shadow : inset 0px 1px 0px 0px #fce2c1;
+	background : linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color : #ffc477;
+	border-radius : 6px;
+	border : 1px solid #eeb44f;
+	display : inline-block;
+	cursor : pointer;
+	color : #ffffff;
+	font-family : Arial;
+	font-size : 18px;
+	font-weight : bold;
+	padding : 15px 24px;
+	text-decoration : none;
+	text-shadow : 0px 1px 0px #cc9f52;
+}
+.learningcoinbutton:hover {
+	background : linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color : #fb9e25;
+}
+
+
+.btn-btnTeach {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btnroundblue {
+    color: transparent;
+    background-color: rgb(0, 151, 169);
+    border: 1px solid #2e6da4;
+    background-image: url(../img/mat-right.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    width: 56px;
+    height: 56px;
+    padding: 0px 0px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 56px;
+    border-radius: 50%;
+}
+.AreaZoneInPg{
+    position : absolute;
+    cursor : pointer;
+    background-color : rgba(255, 255, 255, 0.1);
+    border : dotted 1px #2575be;
+    z-index : 1000;
+}
+
+.AreaZoneTransInPg{
+    position : absolute;
+    cursor : pointer;
+    background-color : rgba(255, 255, 255, 0);
+    z-index : 1000;
+}
+
+.AreaZonehtml5InPg{
+    position : absolute;
+    padding :5px;
+    background-color : white;
+    z-index : 1000;
+    overflow : auto;
+}
+
+.AreaZoomInPg{
+    position : absolute;
+    border : solid 1px #2575be;
+    z-index : 2000;
+    transition: all 0.5s ease-out;
+    display : none;
+    overflow: hidden;
+}
+.AreaMaskInPg{
+    position : absolute;
+    background-color: rgb(164, 164, 164);
+    background-image: url('loupe.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 4px;
+    cursor : pointer;
+    z-index : 2000;
+    transition: all 0.5s ease-out;
+}
+.AreaLinkInPg{
+    position : absolute;
+    border : solid 1px #2575be;
+    background-color : white;
+    z-index : 2000;
+    transition: all 1s ease-out;
+    display : none;
+}
+
+.areaZoomImg{
+    position : absolute;
+    z-index : 2001;
+    transition: all 0.5s ease-out;
+}
+
+.areaPageCover{
+    position : absolute;
+    left : 0px;
+    right : 0px;
+    top : 0px;
+    bottom : 0px;
+    background-color : rgba(0, 0, 0, 0.5);
+    display : none;
+    z-index : 1001;
+}
+
+.magZoom{
+    position : absolute;
+    left : 0px;
+    top : 0px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+}
+.tableCache{
+	border:solid 5px #873600;
+	border-radius: 15px;
+	background: rgba(164,179,87,1);
+	background: linear-gradient(to right, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+}
+
+.CachDescription{
+	position:absolute;
+	border:solid 0px red;
+	color:white;
+	font-size:16px;
+	left:0%;
+	top: 1%;
+	width:100%;
+	height :59%;
+	z-index:5;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
+}
+
+.CachWord{
+	position:absolute;
+	border:solid 0px purple;
+	text-align:center;
+	left:0%;
+	top: 61%;
+	width:100%;
+	height :39%;
+	z-index:5;
+	overflow: hidden;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
+}
+
+.CachLetter{
+	position:absolute;
+	top: 1px;
+	width  : 40px;
+	height  : 40px;
+	line-height : 40px;
+	text-align : center;
+	margin : 1px;
+	border   : solid 1px black;
+	font-size : 25px;
+	cursor : pointer;
+	transition: all 0.5s ease;
+	background: rgba(241,231,103,1);
+	background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+	background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
+}
+.CachLetter:hover{
+	border   : solid 1px gray;
+}
+
+.activityNearContent{
+    position : fixed;
+    right : 0px;
+    bottom : 5%;
+    width : 50%;
+    height : 90%;
+    background-color : white;
+    z-index : 100;
+}
+
+@media screen and (max-width: 800px) {
+    .activityNearContent{
+        width : 98%;
+        height : 50%;
+        right : 1%;
+        bottom : 0%;
+    }
+}

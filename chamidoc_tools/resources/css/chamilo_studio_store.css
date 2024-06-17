@@ -1,0 +1,157 @@
+
+.blocStoreBoard{
+    position : relative;
+    float : left;
+    width : 98%;
+    height : 150px;
+    padding : 4px;
+    border : 1px solid #ddd;
+    background-color: #f8f9fa!important;
+    background-position: 35px 15px;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    cursor : pointer;
+    margin : 5px;
+    border-radius : 2px;
+}
+.blocStoreBoard .titleChalkBoard{
+    position : absolute;
+    background-color : #000000;
+    color : white;
+    text-align : center;
+    left : 0px;
+    width : 160px;
+    bottom : 0px;
+    padding-top : 5px;
+    padding-bottom : 5px;
+    min-height : 5px;
+}
+.blocStoreBoard .descriStudioBoard{
+    position : absolute;
+    padding : 10px;
+    left : 170px;
+    right : 4px;
+    top : 10px;
+    bottom : 10px;
+    border-left : 2px solid #ddd;
+    color : black;
+    text-decoration : none;
+}
+
+.blocStoreprogress{
+    position : absolute;
+    z-index : 10003;
+    border : solid 2px #747474;
+    border-radius: 4px;
+    background-color : white;
+    top : 50%; left : 50%;
+    width : 400px; height : 20px;
+    overflow: hidden;
+    margin-left : -200px;
+    margin-top : -10px;
+}
+.blocStorevalue{
+    position : absolute;
+    top : 0px; left : 0px;
+    background-color : #2980B9 ;
+    height : 22px;
+    width : 1%; 
+}
+.titleStoreprogress{
+    position : absolute;
+    text-align : center;
+    font-size : 20px;
+    top : 50%; left : 50%;
+    width : 400px; height : 30px;
+    overflow: hidden;
+    margin-left : -200px;
+    margin-top : -70px;
+}
+
+.btnStore {
+    position : absolute;
+    right : 5px;
+    bottom : 5px;
+}
+
+.viewermol3d{
+    background-image: url("../img/viewermol3d.png");
+}
+.brain3d{
+    background-image: url("../img/brain3d.png");
+}
+.quota{
+    background-image: url("../img/quota.png");
+}
+.modxlightboxgallery{
+    background-image: url("../img/modxlightboxgallery.png");
+}
+.learningapps{
+    background-image: url("../img/modlearningapps.png");
+}
+.padletapps{
+    background-image: url("../img/modpadletapps.png");
+}
+
+#uploadStoreWindows{
+    position : fixed;
+    z-index : 10003;
+    border : solid 3px #747474;
+    background-color : white;
+    top : 50%;
+    left : 50%;
+    width : 880px;
+    height : 600px;
+    margin-left : -440px;
+    margin-top : -300px;
+    z-index : 102;
+}
+
+@media (max-width: 600px) {
+    #uploadStoreWindows{
+        width : 580px;
+        height : 450px;
+        margin-left : -290px;
+        margin-top : -225px;
+    }
+  }
+
+.uploadStoreWindows_cover{
+    position : fixed;
+    background-color : rgb(143, 143, 143);
+    opacity : 0.5;
+    top : 0px;
+    left : 0px;
+    right : 0px;
+    bottom : 0px;
+    z-index : 101;
+}
+.innerSelectStore{
+    position : absolute;
+    left : 10px;
+    top : 45px;
+    right : 2px;
+    bottom : 5px;
+    padding : 20px;
+    border:solid 0px green;
+    background : white;
+    overflow : auto;
+    z-index : 10010;
+}
+
+.titleWinStore{
+    position:relative;left:0px;top:0px;right:0px;height:36px;font-size:18px;line-height:36px;
+    border-bottom:solid 1px gray;cursor:pointer;background:#f8f8f8;
+}
+
+#closeUpStore{
+    position:absolute;
+    right:5px;
+    top:5px;
+    width:20px;
+    font-size:18px;
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    cursor:pointer;
+}
