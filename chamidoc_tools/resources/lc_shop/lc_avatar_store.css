@@ -1,0 +1,285 @@
+
+.lc_store_opac {
+    position : fixed;
+    left : 0px;
+    right : 0px;
+    top : 0px;
+    bottom : 0px;
+    background-color: whitesmoke;
+    opacity : 0.6;
+    overflow : hidden;
+    z-index : 1999;
+}
+
+.lc_store_windows {
+    position : fixed;
+    left : 50%;
+    top : 50%;
+    width : 700px; height : 200px;
+    margin-left : -350px;
+    margin-top : -100px;
+    overflow: hidden;
+    z-index : 2000;
+}
+
+.lc_package_infos {
+    position : absolute;
+    top : 70px;
+    height : 55px;
+    left : 308px;
+    width : 351px;
+    border : solid 0px gray;
+    overflow : hidden;
+}
+.lc_package_count {
+    position: relative;
+    height : 53px;
+    width : 94px;
+    line-height : 53px;
+    text-align : center;
+    background-color :#F9E79F;
+    color :black;
+    font-size : 23px;
+    font-weight: bold;
+    border-radius : 16px;
+    float : left;
+    overflow : hidden;
+}
+
+
+.lc_avatar_view {
+    position : absolute;
+    left : 30px; top : 90px;
+    border-radius : 6px;
+    width : 260px;
+    bottom: 105px;
+    background-color: white;
+    border : solid 1px gray;
+    display : none;
+}
+.lc_avatar_head {
+    position : absolute;
+    height : 100%;
+}
+
+/* tools */
+.lc_avatar_tools {
+    position : absolute;
+    left : 30px; bottom : 80px;
+    width : 260px;
+    height: 40px;
+}
+
+.lc_block_tools {
+    position : relative;
+    float : left;
+    border-radius : 6px;
+    border : solid 1px gray;
+    background-color: white;
+    width : 38px;
+    height: 38px;
+    margin : 1px;
+    cursor : pointer;
+}
+
+.lc_store_windows_head {
+    position : absolute;
+    left : 0px;
+    right : 0px;
+    top : 0px;
+    bottom : 70px;
+    background-image : url(avatars/store700.png);
+    background-repeat : no-repeat;
+    background-position : 0px 0px;
+}
+
+.lc_store_reset {
+    position : absolute;
+    left : 0px;
+    right : 0px;
+    width : 20px;
+    height : 20px;
+    cursor : help;
+    z-index : 2003;
+}
+
+.lc_store_windows_close {
+    position : absolute;
+    left : 0px; right : 0px;
+    bottom : 0px; height : 80px;
+    background-image : url(avatars/bottom700.png);
+    background-repeat : no-repeat;
+    background-position : 0px 0px;
+    z-index : 2003;
+    cursor : pointer;
+}
+
+.lc_shopitemstools{
+    position : absolute;
+    top : 130px;
+    bottom : 105px;
+    left : 300px; 
+    width : 376px;
+    border : solid 0px gray;
+    overflow: hidden;
+}
+.lc_block_item {
+    position : relative;
+    float : left;
+    border-radius : 6px;
+    width : 117px;
+    height: 150px;
+    background-repeat : no-repeat;
+    background-position : center center;
+    cursor : pointer;
+    margin : 3px;
+    transition: all 0.2s ease-out;
+}
+.lc_block_item_2 {
+    background-image : url(avatars/block-items.png);
+}
+.lc_block_item_5 {
+    background-image : url(avatars/block-items-5.png);
+}
+.lc_block_item_50 {
+    background-image : url(avatars/block-items-50.png);
+}
+
+.lc_block_pant-02{
+    background-image : url(avatars/pant/pant-02.png);
+}
+
+.lc_block_extras-01{
+    background-image : url(avatars/extras/extras-01.png);
+}
+.lc_block_extras-02{
+    background-image : url(avatars/extras/extras-02.png);
+}
+.lc_block_extras-03{
+    background-image : url(avatars/extras/extras-03.png);
+}
+.lc_block_extras-04{
+    background-image : url(avatars/extras/extras-04.png);
+}
+
+.lc_block_tshirt-02{
+    background-image : url(avatars/tshirt/tshirt-02.png);
+}
+.lc_block_tshirt-03{
+    background-image : url(avatars/tshirt/tshirt-03.png);
+}
+.lc_block_tshirt-04{
+    background-image : url(avatars/tshirt/tshirt-04.png);
+}
+.lc_block_tshirt-05{
+    background-image : url(avatars/tshirt/tshirt-05.png);
+}
+
+.lc_block_img{
+    position : absolute;
+    left : 20px;
+    top : 20px;
+    width : 80px;
+    height : 80px;
+    transition: all 0.2s ease-out;
+    background-repeat : no-repeat;
+    background-position : center center;
+    background-size: contain;
+}
+
+.lc_product_wall {
+    position : absolute;
+    left : 94px; top : 20px;
+    width : 80px; height : 80px;
+    background-repeat : no-repeat;
+    background-position : center center;
+    background-size: contain;
+    border : solid 0px gray;
+}
+
+.lc_block_item:hover .lc_block_img{ 
+    left : 3px;
+    top : 3px;
+    width : 110px;
+    height : 110px;
+    transform: rotate(10deg);
+}
+
+.lc_head01 {
+    background-image : url(avatars/head01.jpg);
+    background-repeat : no-repeat;
+    background-position : center center;
+}
+.lc_head02 {
+    background-image : url(avatars/head02.jpg);
+    background-repeat : no-repeat;
+    background-position : center center;
+}
+
+.lc_store_wall_opac {
+    position : absolute;
+    left : 0px; right : 0px;
+    top : 0px; bottom:0px;
+    background-color : whitesmoke;
+    opacity : 0.3;
+    display : none;
+    z-index : 2000;
+}
+.lc_store_wall{
+    position : absolute;
+    border-radius : 6px;
+    border : solid 5px #27AE60;
+    background-color : white;
+    left : 50%; top : 50%;
+    width : 350px; height : 260px;
+    margin-left : -175px; margin-top : -130px;
+    z-index : 2001;
+    transition : all 0.2s ease-out;
+    display : none;
+    cursor : pointer;
+}
+
+.lc_store_btnpay {
+    position : absolute;
+	box-shadow : 0px 1px 0px 0px #fff6af;
+	background : linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color : #ffec64;
+	border-radius : 23px;
+	border : 1px solid #ffaa22;
+	display : inline-block;
+	cursor : pointer;
+	color : #333333;
+	font-family : Arial;
+	font-size : 18px;
+	font-weight : bold;
+	padding : 8px 18px;
+	text-decoration : none;
+	text-shadow : 0px 1px 0px #ffee66;
+    user-select : none;
+}
+.lc_store_btnpay:hover {
+	/* background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%); */
+	background-color:#ffab23;
+    transform : scale(0.99);
+}
+.lc_store_btnpay:active {
+    transform : scale(0.97);
+    border : 1px solid gray;
+	position : absolute;
+}
+.lc_store_btnpay_message {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    left: 50%;
+    top: 110px;
+    border-radius: 16px;
+    text-align: center;
+    margin-left: -150px;
+    background-color:#F9E79F;
+    color:black;
+    user-select: none;
+    z-index: 101;
+}
